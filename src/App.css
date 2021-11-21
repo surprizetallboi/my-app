@@ -1,0 +1,30 @@
+body {
+  font-family: helvetica;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 0.2em;
+  margin: 100px auto;
+  max-width: 650px;
+  background-color: rgb(44, 44, 44);
+  /* text-align: center; */
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 30px;
+  text-transform: lowercase;
+  letter-spacing: 0.05em;
+}
+
+ul {
+  font-size: 20;
+  letter-spacing: 0.1em;
+}
+
+h1:hover {
+  color: rgb(240, 255, 206);
+}
