@@ -6,9 +6,14 @@ import React, { useState } from "react";
 function App() {
   const [isShrunk, setIsShrunk] = useState(false);
 
+function heyHo(){
+    setIsShrunk(isShrunk => !isShrunk);
+}
+
   return (
-    <div className="App">
-      <button className={isShrunk? "butt1" : "butt2"} onClick={ ()=> setIsShrunk(isShrunk => !isShrunk)}>Click to begin</button>
+    <div id="bigDiv" className={isShrunk? "App1" : "App2"}>
+      
+      <button className={isShrunk? "butt1" : "butt2"} onClick={heyHo}>Click to begin</button>
       <header className={isShrunk? "appHead1" : "appHead2"}>
         <h2 id="hello">hey, my name is</h2>
         <h1>CHRISTIAN DANIEL</h1>
@@ -20,7 +25,9 @@ function App() {
       <br />
       <br />
       <br />
-      <p className={isShrunk? "buttonText1" : "buttonText2"} >Press anywhere to begin</p>      
+      <div className="begin">
+      <p className={isShrunk? "buttonText1" : "buttonText2"}>Press anywhere to begin</p>      
+      </div>
       {/* <Circle /> */}
     </div>
   );
