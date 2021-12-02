@@ -66,15 +66,19 @@ header {
   margin: auto;
   transition: transform 2000ms ease;
   top: 100px;
+  font-weight: bold;
 }
 
 .appHead2 {
-  transform: translateY(100px);
+  transform: translateY(5em);
 }
 
 @media (max-width: 600px) {
   body {
     font-size: 3vw;
+  }
+  h1 {
+    max-width: 16.6em;
   }
 }
 
@@ -85,15 +89,15 @@ header {
   width: 30em;
   padding: auto;
   margin: auto;
+  box-sizing: border-box;
+  padding-left: 2em;
 }
 
 .buttonText1 {
   opacity: 0;
-  padding-left: 40px;
 }
 .buttonText2 {
   opacity: 100;
-  padding-left: 40px;
 }
 
 button {
