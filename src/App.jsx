@@ -19,16 +19,13 @@ function heyHo(){
         <h1>CHRISTIAN DANIEL</h1>
         <h2 id="make">I make stuff and do things</h2>
       </header>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <div className="begin">
+
+      <div className={isShrunk? "begin1" : "begin2"} id="begin" >
       <p className={isShrunk? "buttonText1" : "buttonText2"}>Press anywhere to begin</p>      
       </div>
-      {/* <Circle /> */}
+      <div className={isShrunk? "paragraph1" : "paragraph2"} id="paragraph" >
+      <p>This is my website, it's not quite done yet</p>
+      </div>
     </div>
   );
 }

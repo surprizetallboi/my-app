@@ -34,7 +34,6 @@ body {
 h1 {
   font-size: 3em;
   padding-top: 0em;
-  max-width: 500px;
   letter-spacing: 0.01em;
   margin: 0em;
   padding-left: 0.7em;
@@ -65,8 +64,15 @@ header {
   width: 30em;
   margin: auto;
   transition: transform 2000ms ease;
-  top: 100px;
+  transition: font-size 2000ms ease;
+  transition: width 2000ms ease;
+  transition: height 2000ms ease;
+  top: 5em;
   font-weight: bold;
+}
+
+.appHead1 {
+  font-size: 10px;
 }
 
 .appHead2 {
@@ -82,7 +88,7 @@ header {
   }
 }
 
-.begin {
+#begin {
   pointer-events: none;
   transition: opacity 2000ms ease;
   height: 18em;
@@ -91,6 +97,11 @@ header {
   margin: auto;
   box-sizing: border-box;
   padding-left: 2em;
+  padding-top: 10em;
+}
+
+.begin1 {
+  display: none;
 }
 
 .buttonText1 {
@@ -115,8 +126,29 @@ button {
   top: 0px;
   left: 0px;
   z-index: 1;
+  padding: 0;
 }
 
 .butt1 {
   display: none;
+}
+
+#paragraph {
+  color: black;
+  transition: opacity 4000ms ease;
+  padding: auto;
+  margin: auto;
+  box-sizing: border-box;
+  padding-left: 2em;
+  padding-top: 10em;
+  height: 18em;
+  width: 30em;
+}
+
+.paragraph1 {
+  opacity: 100;
+}
+
+.paragraph2 {
+  opacity: 0;
 }
