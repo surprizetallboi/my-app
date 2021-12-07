@@ -93,7 +93,6 @@ header {
   transition: opacity 2000ms ease;
   height: 18em;
   width: 30em;
-  padding: auto;
   margin: auto;
   box-sizing: border-box;
   padding-left: 2em;
@@ -136,7 +135,6 @@ button {
 #paragraph {
   color: black;
   transition: opacity 4000ms ease;
-  padding: auto;
   margin: auto;
   box-sizing: border-box;
   padding-left: 2em;
